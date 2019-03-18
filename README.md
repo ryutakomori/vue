@@ -3,20 +3,33 @@ docker-compose up -d
 
 # create project & startup project  
 docker-compose exec vue sh
+
 vue create project_name
+
     ? Please pick a preset: Manually select features
+    
     ? Check the features needed for your project:
+    
     ❯◉ Babel
+    
     ◉ TypeScript
+    
     ◯ Progressive Web App (PWA) Support
+    
     ◉ Router
+    
     ◯ Vuex
+    
     ◯ CSS Pre-processors
+    
     ◉ Linter / Formatter
+    
     ◯ Unit Testing
+    
     ◯ E2E Testing
     
 cd project_name
+
 yarn serve
 
 # remove
