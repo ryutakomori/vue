@@ -15,6 +15,7 @@ vue create project_name
     ◉ Linter / Formatter
     ◯ Unit Testing
     ◯ E2E Testing
+    
 cd project_name
 yarn serve
 
