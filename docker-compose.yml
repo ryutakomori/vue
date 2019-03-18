@@ -2,7 +2,7 @@ version: '3'
 
 services:
   vue:
-    container_name: vue
+    container_name: vue-ts
     build: .
     ports:
       - "8080:8080"

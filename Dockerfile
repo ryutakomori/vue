@@ -1,3 +1,5 @@
-FROM node:11.10.1-alpine
+FROM node:11.10.1-stretch
 
-RUN npm install --global @vue/cli
+RUN yarn global add @vue/cli
+
+WORKDIR /projects
